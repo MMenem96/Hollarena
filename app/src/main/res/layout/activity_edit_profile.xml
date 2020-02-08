@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="vertical">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/login_controls_bg"
+        tools:context=".UsersInfo.navigationdrawer.profile.EditProfile">
+
+        <RelativeLayout
+            android:id="@+id/upperBar"
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:layout_alignBottom="@+id/tvback"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="@color/colorLightBlue"
+                android:gravity="center"
+                android:text="Edit Profile"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/tvback"
+                android:layout_width="52dp"
+                android:layout_height="28dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/logoBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/upperBar"
+            android:layout_marginTop="10dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/user_profile_logo"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ic_account_circle_for_profile" />
+
+        </RelativeLayout>
+
+
+        <EditText
+
+            android:id="@+id/etUserName2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logoBar"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:ellipsize="start"
+            android:gravity="center_horizontal"
+            android:hint="User Name"
+            android:inputType="text"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+
+        <EditText
+
+            android:id="@+id/etphone2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etUserName2"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:ellipsize="start"
+            android:gravity="center_horizontal"
+            android:hint="Phone"
+            android:inputType="phone"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/etAge_edit_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etphone2"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/white"
+            android:ellipsize="start"
+            android:gravity="center_horizontal"
+            android:hint="Age"
+            android:inputType="number"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+
+        <EditText
+
+            android:id="@+id/etGender2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etAge_edit_profile"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:ellipsize="start"
+            android:gravity="center_horizontal"
+            android:hint="Gender"
+            android:padding="12dp"
+            android:textColor="@color/black"
+
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tvnchange_user_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etGender2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:text="@string/change_user_email"
+            android:textColor="@color/colorPrimary"
+            android:textColorHighlight="@color/colorLightBlue"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/tvnchange_user_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvnchange_user_email"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/change_user_password"
+            android:textColor="@color/colorPrimary"
+            android:textColorHighlight="@color/colorLightBlue"
+            android:textSize="13sp" />
+
+        <ImageView
+            android:id="@+id/edit_profile_imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tvnchange_user_password"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_edit_profile" />
+
+        <ImageView
+            android:id="@+id/save_profile_imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tvnchange_user_password"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_maps_and_flags" />
+
+
+    </RelativeLayout>
+</ScrollView>

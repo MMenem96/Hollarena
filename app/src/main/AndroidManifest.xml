@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.creation.hollarena">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".UsersInfo.splashscreeen.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".UsersInfo.signupuser.SignupActivity1" />
+        <activity android:name=".UsersInfo.hollasrequestcomponents.FriendsListActivity" />
+        <activity android:name=".UsersInfo.navigationdrawer.magazine.Pay_stock" />
+        <activity android:name=".UsersInfo.hollasrequestcomponents.NotificationActivity" />
+        <activity android:name=".UsersInfo.signupuser.SignupActivity2" />
+        <activity android:name=".UsersInfo.navigationdrawer.marketplace.MarketPlaceActivity" />
+        <activity android:name=".UsersInfo.navigationdrawer.magazine.MagazineActivity" />
+        <activity android:name=".UsersInfo.navigationdrawer.profile.ProfileActivity" />
+        <activity android:name=".UsersInfo.logincredentials.LoginActivity" />
+        <activity android:name=".UsersInfo.navigationdrawer.aboutusandhelp.AboutUsActivity" />
+        <activity android:name=".UsersInfo.signupuser.MailVerificationActivity" />
+        <activity android:name=".UsersInfo.navigationdrawer.hollarenaalterego.AddTopicActivity" />
+        <activity android:name=".UsersInfo.navigationdrawer.profile.EditProfile" />
+        <activity android:name=".UsersInfo.navigationdrawer.profile.RequestANewEmailActivity" />
+        <activity android:name=".UsersInfo.navigationdrawer.profile.RequestANewPasswordActivity" />
+        <activity android:name=".UsersInfo.navigationdrawer.profile.BlogSingleActivity" />
+        <activity android:name=".UsersInfo.navigationdrawer.hollarenaalterego.HollarenaAlteregoActivity" />
+        <activity android:name=".UsersInfo.navigationdrawer.profile.UserProfileActivity" />
+        <activity android:name=".UsersInfo.chatcomponents.ChatActivity" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity android:name=".UsersInfo.navigationdrawer.magazine.CheckAge"></activity>
+    </application>
+
+</manifest>

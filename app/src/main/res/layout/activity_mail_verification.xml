@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="true"
+    android:background="@color/white"
+    tools:context="com.creation.hollarena.UsersInfo.signupuser.MailVerificationActivity">
+
+    <LinearLayout
+        android:id="@+id/llEmailImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/email_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="image"
+            android:src="@drawable/email" />
+
+
+        <TextView
+            android:id="@+id/tvEmailConf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"
+            android:text="Email Confirmation"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/tvWelcomeUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvEmailConf"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:text="Hey user, you're almost ready to start enjoying Hollarena.\nSimply click the big yellow button below to verify your email address.     "
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btn_verify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rlText"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="30dp"
+            android:background="#fbaf5d"
+            android:padding="5dp"
+            android:text="Verifiy Your EMail"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+
+    <!--<TextView-->
+    <!--android:id="@+id/tv_welcome_user"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@+id/llEmailImage"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--a-->
+    <!--android:text="Welcome User !"-->
+    <!--android:textSize="15sp"-->
+    <!--android:textColor="#0e0066" />-->
+    <!--<TextView-->
+    <!--android:id="@+id/tv_verify_user"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@+id/tv_welcome_user"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:layout_marginBottom="60dp"-->
+    <!--android:layout_marginLeft="25dp"-->
+    <!--android:layout_marginRight="25dp"-->
+    <!--android:text="Congratulation! Now you are a Hollarena user \t \n click this button to verify your account now"-->
+    <!--android:textSize="15sp"-->
+    <!--android:textColor="#2300ff" />-->
+</LinearLayout>

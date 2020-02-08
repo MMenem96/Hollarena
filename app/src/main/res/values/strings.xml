@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Hollarena</string>
+    <string name="pin_text">Only Four characters</string>
+
+    <string name="change_user_password"><u>Change Your Password</u></string>
+
+
+    <string-array name="Sex">
+        <item>Female</item>
+        <item>Male</item>
+    </string-array>
+
+    <!-- Login Activity -->
+    <string name="password">Password</string>
+    <string name="user_name">Username or E-mail</string>
+    <string name="login">Login</string>
+    -
+    <string name="register_txt">Don\'t have an account? <b>Sign Up</b></string>
+    <!---->
+
+    <!-- Navigation bar-->
+    <string name="profile_item">Profile</string>
+    <string name="magazine_item">Magazine</string>
+    <string name="forum_item">Forum</string>
+    <string name="marketplace_item">Market Place</string>
+    <string name="about_item">About Us</string>
+    <string name="logout_item">Log Out</string>
+    <string name="open">OPEN</string>
+    <string name="close">CLOSE</string>
+    <string name="change_user_email"><u>Change Your Email</u></string>
+
+    <!--Check Age-->
+    <string name="tv_catagories">Categories</string>
+    <string name="tv_cat_sports">Sports</string>
+    <string name="tv_cat_politics">Politics</string>
+    <string name="tv_cat_books">Books</string>
+    <string name="tv_cat_travel">Travel</string>
+    <string name="tv_cat_fation">Fashion</string>
+    <string name="tv_upgrade">Upgrade to premium</string>
+    <string name="tv_pay_stock">Pay Stock</string>
+    <string name="tv_cond">Before you enter the plog you must be +18, Do you want to continue</string>
+    <string name="tv_yes">Yes</string>
+    <string name="tv_no">No</string>
+</resources>

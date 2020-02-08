@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/upperBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textViewChangeEmail"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/tvback"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/colorLightBlue"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Update Your Email"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/etEmail_for_updating_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/white"
+        android:hint="Your Email"
+        android:padding="10dp"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/etPassword_for_updating_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/white"
+        android:hint="Your Password"
+        android:inputType="textPassword"
+        android:padding="10dp"
+
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/etNewEmail_for_updating_email"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/white"
+        android:hint="Your New Email"
+        android:padding="10dp"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/btn_for_updating_Email"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorLightBlue"
+        android:text="Update"
+        android:textAllCaps="false"
+
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+</LinearLayout>

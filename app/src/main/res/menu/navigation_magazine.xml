@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group>
+        <item
+            android:id="@+id/Profile_Item_id"
+            android:icon="@drawable/ic_account_circle"
+            android:title="@string/profile_item"
+
+            />
+        <item
+            android:id="@+id/Forum_Item_id"
+            android:icon="@drawable/ic_fourm"
+            android:title="Hollarena Alterego" />
+
+        <item
+            android:id="@+id/Market_Place_Item_id"
+            android:icon="@drawable/ic_market"
+            android:title="@string/marketplace_item" />
+    </group>
+    <group>
+        <item
+            android:id="@+id/about_us"
+            android:title="@string/about_item"
+            android:icon="@drawable/ic_about_us"/>
+        <item
+            android:id="@+id/logout"
+            android:title="@string/logout_item"
+            android:icon="@drawable/ic_exit"/>
+    </group>
+
+
+</menu>
